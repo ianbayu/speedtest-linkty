@@ -6,7 +6,7 @@ import TurndownService from "turndown";
 import { gfm } from "turndown-plugin-gfm";
 
 const DIST = "dist";
-const SITE = "https://guessthespeed.com";
+const SITE = "https://speedtest.linkty.cc";
 const DROP = [
   "script",
   "style",

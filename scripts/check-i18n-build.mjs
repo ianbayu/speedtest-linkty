@@ -35,7 +35,7 @@ const localizedPages = Object.fromEntries(
     ),
   ]),
 );
-const absoluteUrl = (path) => `https://guessthespeed.com${path}`;
+const absoluteUrl = (path) => `https://speedtest.linkty.cc${path}`;
 const title = (html) => html.match(/<title>(.*?)<\/title>/)?.[1] ?? "";
 
 for (const [page, locales] of Object.entries(localizedPages)) {
